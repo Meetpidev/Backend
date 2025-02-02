@@ -18,7 +18,7 @@ Node.js, Express.js, Redis, Google Translate API, Mongoose.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Subbu-chowdary/FAQ-backend](https://github.com/Meetpidev/Backend.git
+   git clone https://github.com/Meetpidev/Backend.git
    cd backend
    ```
 
