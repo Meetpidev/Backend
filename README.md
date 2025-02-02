@@ -18,8 +18,8 @@ Node.js, Express.js, Redis, Google Translate API, Mongoose.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Subbu-chowdary/FAQ-backend
-   cd backend-faq
+   git clone https://github.com/Subbu-chowdary/FAQ-backend](https://github.com/Meetpidev/Backend.git
+   cd backend
    ```
 
 2. **Install dependencies:**
@@ -33,7 +33,8 @@ Node.js, Express.js, Redis, Google Translate API, Mongoose.
    Create a `.env` file at the root of the project and add your Google Translate API key and Redis configuration:
 
    ```env
-   MONGO_URI=MONGO_URI=mongodb+srv://<your-username>:<your-password>@portfolio.znzoq.mongodb.net/faqdb
+   PORT=8080
+   MONGODB_URI=MONGO_URI=mongodb+srv://<your-username>:<your-password>@portfolio.znzoq.mongodb.net/faqdb
    REDIS_HOST=127.0.0.1
    REDIS_PORT=6379
 
@@ -43,10 +44,10 @@ Node.js, Express.js, Redis, Google Translate API, Mongoose.
 
    ```bash
    redis-server
-   npm start
+   node app.js
    ```
 
-   The server should now be running at `http://localhost:5000`.
+   The server should now be running at `http://localhost:8080`.
 
 ## API Endpoints
 
